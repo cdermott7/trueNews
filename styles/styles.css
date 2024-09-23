@@ -1,0 +1,84 @@
+/* Highlight styles */
+.fact-highlight {
+    cursor: pointer;
+}
+
+.fact-highlight.green {
+    background-color: rgba(0, 255, 0, 0.2);
+}
+
+.fact-highlight.yellow {
+    background-color: rgba(255, 255, 0, 0.2);
+}
+
+.fact-highlight.red {
+    background-color: rgba(255, 0, 0, 0.2);
+}
+
+/* Tooltip styles */
+#fact-check-tooltip {
+    position: absolute;
+    z-index: 1000;
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 10px;
+    max-width: 300px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    display: none;
+}
+
+#fact-check-tooltip h4 {
+    margin-top: 0;
+}
+
+#fact-check-tooltip ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#fact-check-tooltip li {
+    margin-bottom: 5px;
+}
+
+#fact-check-tooltip a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+#fact-check-tooltip a:hover {
+    text-decoration: underline;
+}
+
+/* Popup styles */
+body {
+    width: 300px;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#status {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.fact {
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.fact.green {
+    background-color: rgba(0, 255, 0, 0.1);
+}
+
+.fact.yellow {
+    background-color: rgba(255, 255, 0, 0.1);
+}
+
+.fact.red {
+    background-color: rgba(255, 0, 0, 0.1);
+}
